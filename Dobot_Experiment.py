@@ -52,7 +52,7 @@ if (state == dType.DobotConnect.DobotConnect_NoError):
         if i % 2 == 0:
             zoffset = zMax
             xOffset = xOffset - 75
-            yOffset = yOffset + 75
+            yOffset = yOffset + 50
         else:
             zoffset = zMin
         print("x, y, z: ", xHomePos + xOffset, yHomePos + yOffset, zHomePos + zoffset)
